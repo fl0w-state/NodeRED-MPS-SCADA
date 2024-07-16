@@ -96,15 +96,19 @@ The following Node-RED modules are used in this project:
 
 ## PLC Programs
 
-This section contains the PLC programs used in this project. The PLC programs are provided in separate files within the `plc-programs` directory.
+This section contains the PLC programs used in this project. The PLC programs are provided in separate files within the `PLC Programs` directory.
 
-### Separating Station
+### Separating Station (Siemens S7-300, TIA Portal V18)
 
-- [example-plc-program-separating.ladder](plc-programs/Separating-Station/example-plc-program-separating.ladder)
+- [example-plc-program-separating.ladder](PLC%20Programs/Separating%20Station/example-plc-program-separating.ladder)
+  
+  ![TIA Portal](Media/TIA.png)
 
-### Storing Station
+### Storing Station (Omron CP1L-M30DR-A, CX-Programmer 9.7)
 
-- [example-plc-program-storing.ladder](plc-programs/Storing-Station/example-plc-program-storing.ladder)
+- [example-plc-program-storing.ladder](PLC%20Programs/Storing%20Station/example-plc-program-storing.ladder)
+  
+  ![CX Programmer](Media/CX-P.png)
 
 ## Visuals
 
