@@ -20,8 +20,8 @@ This project aims to develop a SCADA system using Node-RED for monitoring and co
 <p align="center">
   <img src="Media/Gambaran%20Umum%20Sistem.png" alt="Gambaran Umum Sistem">
 </p>
-<p align="center">
-  <b>Description:</b> The image above represents an overview of the system architecture, illustrating the integration and flow of data between different components in the SCADA system. The Omron CP1L-M30DR-A PLC uses the FINS UDP protocol, while the Siemens S7-300 PLC uses the Modbus TCP protocol.
+<p>
+  <b>Description:</b> The image above represents an overview of the system architecture, illustrating the integration and flow of data between different components in the SCADA system. The Omron CP1L-M30DR-A PLC uses the FINS UDP protocol, while the Siemens S7-300 PLC uses the Modbus TCP protocol. The PLCs are connected to a TP-Link WR840N router using Ethernet, which then sends the data to the MTU/PC. The Node-RED dashboard is used for monitoring, and InfluxDB is used for data storage. For more detailed information regarding this project, refer to the <a href="Document">Document</a> folder.
 </p>
 
 ## Maintenance Guide
@@ -100,13 +100,13 @@ This section contains the PLC programs used in this project. The PLC programs ar
 
 ### Separating Station (Siemens S7-300, TIA Portal V18)
 
-- [example-plc-program-separating.ladder](PLC%20Programs/Separating%20Station/example-plc-program-separating.ladder)
+- [Separating Station folder](PLC%20Programs/Separating%20Station)
   
   ![TIA Portal](Media/TIA.png)
 
 ### Storing Station (Omron CP1L-M30DR-A, CX-Programmer 9.7)
 
-- [example-plc-program-storing.ladder](PLC%20Programs/Storing%20Station/example-plc-program-storing.ladder)
+- [Storing Station folder](PLC%20Programs/Storing%20Station)
   
   ![CX Programmer](Media/CX-P.png)
 
