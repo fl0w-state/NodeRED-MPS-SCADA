@@ -52,45 +52,58 @@ This section includes the SOPs for operating and managing the Node-RED MPS SCADA
 
 ## Node-RED JSON Code
 
-This section contains the JSON code for the Node-RED flows used in this project. The flows are provided in the [Node-RED](Node-RED) directory.
+This section contains the JSON code for the Node-RED flows used in this project. The Node-RED flows are located in the [Node-RED](Node-RED) folder.
 
-### Node-RED Modules Used
+### Node-RED Modules in Use
 
-- [node-red-dashboard](https://flows.nodered.org/node/node-red-dashboard)
-- [node-red-node-ping](https://flows.nodered.org/node/node-red-node-ping)
-- [node-red-node-serialport](https://flows.nodered.org/node/node-red-node-serialport)
-- [node-red-node-sqlite](https://flows.nodered.org/node/node-red-node-sqlite)
-- [node-red-contrib-context-monitor](https://flows.nodered.org/node/@ralphwetzel/node-red-context-monitor)
-- [node-red-contrib-context-hook](https://flows.nodered.org/node/@sirimangus/node-red-contrib-context-hook)
-- [node-red-contrib-context-nodes](https://flows.nodered.org/node/node-red-contrib-context-nodes)
-- [node-red-contrib-ctrlx-automation](https://flows.nodered.org/node/node-red-contrib-ctrlx-automation)
-- [node-red-contrib-filesystem](https://flows.nodered.org/node/node-red-contrib-filesystem)
-- [node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb)
-- [node-red-contrib-modbus](https://flows.nodered.org/node/node-red-contrib-modbus)
-- [node-red-contrib-nbrowser](https://flows.nodered.org/node/node-red-contrib-nbrowser)
-- [node-red-contrib-omron-fins](https://flows.nodered.org/node/node-red-contrib-omron-fins)
-- [node-red-contrib-ui-actions](https://flows.nodered.org/node/node-red-contrib-ui-actions)
-- [node-red-contrib-ui-led](https://flows.nodered.org/node/node-red-contrib-ui-led)
-- [node-red-contrib-ui-media](https://flows.nodered.org/node/node-red-contrib-ui-media)
-- [node-red-contrib-ui-svg](https://flows.nodered.org/node/node-red-contrib-ui-svg)
-- [node-red-node-ui-table](https://flows.nodered.org/node/node-red-node-ui-table)
+The following Node-RED modules are used in this project:
+
+1. **[node-red](https://flows.nodered.org/node/node-red)**
+   - **Description**: A visual tool for wiring the Internet of Things.
+
+2. **[node-red-contrib-filesystem](https://flows.nodered.org/node/node-red-contrib-filesystem)**
+   - **Description**: Nodes to work with the filesystem in Node-RED.
+
+3. **[node-red-contrib-influxdb](https://flows.nodered.org/node/node-red-contrib-influxdb)**
+   - **Description**: Node-RED nodes to save and query data from an InfluxDB time series database.
+
+4. **[node-red-contrib-modbus](https://flows.nodered.org/node/node-red-contrib-modbus)**
+   - **Description**: The all-in-one Modbus TCP and Serial contribution package for Node-RED.
+
+5. **[node-red-contrib-omron-fins](https://flows.nodered.org/node/node-red-contrib-omron-fins)**
+   - **Description**: Node-RED nodes to interact with Omron PLCs using the FINS protocol.
+
+6. **[node-red-dashboard](https://flows.nodered.org/node/node-red-dashboard)**
+   - **Description**: A set of dashboard nodes for Node-RED.
+
+7. **[node-red-node-serialport](https://flows.nodered.org/node/node-red-node-serialport)**
+   - **Description**: Node-RED nodes to talk to serial ports.
+
+8. **[node-red-contrib-ui-led](https://flows.nodered.org/node/node-red-contrib-ui-led)**
+    - **Description**: A Node-RED Dashboard user interface node that displays an LED status indicator.
+
+9. **[node-red-contrib-ui-media](https://flows.nodered.org/node/node-red-contrib-ui-media)**
+    - **Description**: A Node-RED Dashboard UI media node.
+
+10. **[node-red-contrib-ui-svg](https://flows.nodered.org/node/node-red-contrib-ui-svg)**
+    - **Description**: A Node-RED Dashboard UI SVG node.
 
 ## PLC Programs
 
-This section contains the PLC programs used in this project. The PLC programs are provided in the [PLC Programs](PLC-Programs) directory, divided into the following subdirectories:
+This section contains the PLC programs used in this project. The PLC programs are provided in separate files within the `plc-programs` directory.
 
-- [Separating Station](PLC-Programs/Separating-Station)
-- [Storing Station](PLC-Programs/Storing-Station)
+### Separating Station
 
-### Example PLC Program
+- [example-plc-program-separating.ladder](plc-programs/Separating-Station/example-plc-program-separating.ladder)
 
-```ladder
-// Example Ladder Logic Program for Siemens S7-300
-// Author: Your Name
-// Date: YYYY-MM-DD
+### Storing Station
 
-NETWORK
-TITLE = "Start Button"
-A  I0.0
-AN M0.0
-=  Q0.0
+- [example-plc-program-storing.ladder](plc-programs/Storing-Station/example-plc-program-storing.ladder)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Visuals
+
+![Node-RED Dashboard](images/node-red-dashboard.png)
