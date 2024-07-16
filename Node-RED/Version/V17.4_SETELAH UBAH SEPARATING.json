@@ -1,0 +1,3480 @@
+[
+    {
+        "id": "dcb017ae36aaf487",
+        "type": "tab",
+        "label": "User Interface",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "65effb74e549bba3",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "name": "Hide Tabs",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "7df8d073ed0ee12d",
+            "43f54cc28a874776",
+            "e797977077a81898",
+            "47cac27055f6ab41",
+            "9769b90c223016b4",
+            "ccf27c69bef5b469",
+            "df68e88affb699e2",
+            "0188d70f62bdd47f",
+            "323ebc1e67fc0595",
+            "3e0bac4c7b6df664",
+            "f9c14312e79a1128"
+        ],
+        "x": 34,
+        "y": 579,
+        "w": 772,
+        "h": 242
+    },
+    {
+        "id": "0ffafd78e0e34795",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "name": "Login Page Fix (Notification and Account Register)",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "3d4bc32c584f255a",
+            "707e0443539d455d",
+            "a249e2135280eec7",
+            "5382a488a08bb7b8",
+            "4e7dfe212d1be192",
+            "2b76f5d14d94b279",
+            "5bfdd33d05abb135",
+            "567fe8392e054cc1",
+            "2add07420576117d",
+            "158786b9b01f3bd2",
+            "3e6eaca876265dff",
+            "717a1c7f654e5827",
+            "886d7bce176e8404",
+            "4e040a1852fd0d68",
+            "300b2f164b5d31c3",
+            "d7d27758b2b8c4d0",
+            "dd18ec44a8526979"
+        ],
+        "x": 48,
+        "y": 13,
+        "w": 1204,
+        "h": 554
+    },
+    {
+        "id": "0153428ba89bea06",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "6457e1531249badd",
+            "a8378e42a80b65a5",
+            "112e42a4b6880c7f",
+            "c08baf64310b1de7",
+            "35c0c3da7ef0f3f9"
+        ],
+        "x": 34,
+        "y": 1859,
+        "w": 612,
+        "h": 142
+    },
+    {
+        "id": "0deb7b8d18532af3",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "name": "Add, Delete, Initialize Account",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "265a6557602dc745",
+            "901e94f3997cc06f",
+            "3",
+            "4",
+            "5",
+            "6",
+            "35f566875c5b8031",
+            "15ca08862c5904c2",
+            "7279ba41a8e07e67",
+            "075afa9b223d9a5d",
+            "ffa45e8a19634f3e",
+            "befeb372af4477d9",
+            "6a6e98ad9651817f",
+            "7466ee244089179e",
+            "2d92db0e926d6648",
+            "5374a1ed1f84712e",
+            "5e58fd155d8920de",
+            "da08cb528e95b8ab",
+            "449f5f5a0a7f5136"
+        ],
+        "x": 1294,
+        "y": 299,
+        "w": 992,
+        "h": 382
+    },
+    {
+        "id": "2b76f5d14d94b279",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "autologin",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "4d38646193e75a48",
+            "6846306e43b295da",
+            "2108cada27fd4f72"
+        ],
+        "x": 74,
+        "y": 419,
+        "w": 352,
+        "h": 122
+    },
+    {
+        "id": "2add07420576117d",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "Login Info",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "beb98b7a66ad0ea7",
+            "3a29d1795fee6cde"
+        ],
+        "x": 74,
+        "y": 339,
+        "w": 392,
+        "h": 82
+    },
+    {
+        "id": "717a1c7f654e5827",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "Move to Login Page if logout pressed",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0a97a3c5c303ae61",
+            "5534f1e3628eaf66"
+        ],
+        "x": 74,
+        "y": 179,
+        "w": 372,
+        "h": 82
+    },
+    {
+        "id": "886d7bce176e8404",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "First Run",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6e69e8158aa25fb1",
+            "03027c661c4b93b0",
+            "ded927560b148862",
+            "13b61dd14f1cbe97"
+        ],
+        "x": 74,
+        "y": 39,
+        "w": 512,
+        "h": 122
+    },
+    {
+        "id": "4e040a1852fd0d68",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "Condition if Access Permitted",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "c7bc97bbaeceb6b0",
+            "3c6cb53f49dc44b1",
+            "5ffbf542069030dc",
+            "5ad37847f7cdba41"
+        ],
+        "x": 594,
+        "y": 39,
+        "w": 522,
+        "h": 122
+    },
+    {
+        "id": "300b2f164b5d31c3",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "Condition if Access not Permitted",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "58d681492d04909b",
+            "df3e503a4dbea13d"
+        ],
+        "x": 794,
+        "y": 259,
+        "w": 432,
+        "h": 82
+    },
+    {
+        "id": "dbf043bd997f3fb2",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "name": "Notif Send",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "bfee679d661bd9ff",
+            "aff0df1779c8d865",
+            "e3180bf6b1f439df",
+            "0ea28f99409ce7f6"
+        ],
+        "x": 1294,
+        "y": 19,
+        "w": 492,
+        "h": 82
+    },
+    {
+        "id": "d9d0b42199aea882",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "name": "Disable Button",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "80b4ecc8132a7949",
+            "84173316af8fdd5e",
+            "229c40239aabb5d1",
+            "fbbf90328e7aca73"
+        ],
+        "x": 1294,
+        "y": 99,
+        "w": 792,
+        "h": 82
+    },
+    {
+        "id": "c936f97e14da25fa",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "name": "Set Current Page",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "b17e02eb7c24491d",
+            "cb769c88a90fc39e"
+        ],
+        "x": 1294,
+        "y": 199,
+        "w": 452,
+        "h": 82
+    },
+    {
+        "id": "9ba9601bee7d6746",
+        "type": "group",
+        "z": "dcb017ae36aaf487",
+        "name": "Influx Control",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "f0d094335b113de0",
+            "5c9b742f1148aff6",
+            "3a226ed10923e5b0",
+            "5b132e49cffb9517",
+            "1c9e6f5a.f5fce1",
+            "1a5c9e17.74c432",
+            "c1d81c6b0b3d20cc",
+            "680bddef7c099337",
+            "523239869d1b1476",
+            "b6f15a79fb03f93c",
+            "e07fb2a66d7f8696",
+            "1b19fbacca02117e"
+        ],
+        "x": 1294,
+        "y": 699,
+        "w": 812,
+        "h": 302
+    },
+    {
+        "id": "7df8d073ed0ee12d",
+        "type": "ui_ui_control",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "",
+        "events": "all",
+        "x": 720,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "43f54cc28a874776",
+        "type": "switch",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "Login Status False",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "false"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 210,
+        "y": 640,
+        "wires": [
+            [
+                "323ebc1e67fc0595",
+                "e797977077a81898"
+            ]
+        ]
+    },
+    {
+        "id": "e797977077a81898",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "Hide when Login Status = False",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"hide\":[\"Account Dashboard\",\"Admin\",\"Separating Station\",\"Storing Station\",\"Storing Station Alarm History\",\"Separating Station Alarm History\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 660,
+        "wires": [
+            [
+                "7df8d073ed0ee12d"
+            ]
+        ]
+    },
+    {
+        "id": "47cac27055f6ab41",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "link in 6",
+        "links": [
+            "a249e2135280eec7",
+            "a6303268851e2fb3",
+            "8f5bc9ffaf561adb",
+            "a578cfee64f47a62"
+        ],
+        "x": 75,
+        "y": 720,
+        "wires": [
+            [
+                "43f54cc28a874776",
+                "9769b90c223016b4"
+            ]
+        ]
+    },
+    {
+        "id": "9769b90c223016b4",
+        "type": "switch",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "Login Status True",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "true"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 210,
+        "y": 720,
+        "wires": [
+            [
+                "ccf27c69bef5b469",
+                "3e0bac4c7b6df664"
+            ]
+        ]
+    },
+    {
+        "id": "ccf27c69bef5b469",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "Hide when Login Status = True",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"hide\":[\"Login\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 700,
+        "wires": [
+            [
+                "7df8d073ed0ee12d"
+            ]
+        ]
+    },
+    {
+        "id": "df68e88affb699e2",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "link in 8",
+        "links": [
+            "03027c661c4b93b0",
+            "318c1c74f1854d5c",
+            "d4821ab6a76fb60c",
+            "6097f45222f34526"
+        ],
+        "x": 75,
+        "y": 640,
+        "wires": [
+            [
+                "43f54cc28a874776",
+                "9769b90c223016b4"
+            ]
+        ]
+    },
+    {
+        "id": "0188d70f62bdd47f",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "Show when Login Status = True",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"show\":[\"Account Dashboard\",\"Separating Station\",\"Storing Station\",\"Storing Station Alarm History\",\"Separating Station Alarm History\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 780,
+        "wires": [
+            [
+                "7df8d073ed0ee12d"
+            ]
+        ]
+    },
+    {
+        "id": "323ebc1e67fc0595",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "Show when Login Status = False",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"show\":[\"Login\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 480,
+        "y": 620,
+        "wires": [
+            [
+                "7df8d073ed0ee12d"
+            ]
+        ]
+    },
+    {
+        "id": "7e926b45ceba7de6",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "1a9334211bfc504f",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Separating Station",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 110,
+        "y": 960,
+        "wires": [
+            [
+                "7209482002dca60b"
+            ]
+        ]
+    },
+    {
+        "id": "7209482002dca60b",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "name": "Move to IO Monitoring",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Separating Station\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 960,
+        "wires": [
+            [
+                "c1d2a928c4c639ea"
+            ]
+        ]
+    },
+    {
+        "id": "c1d2a928c4c639ea",
+        "type": "ui_ui_control",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "events": "all",
+        "x": 880,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d571f350b197bd54",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "name": "Move to Account Dashboard",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\" : \"Account Dashboard\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 560,
+        "y": 1300,
+        "wires": [
+            [
+                "fce21d7642df3463"
+            ]
+        ]
+    },
+    {
+        "id": "fce21d7642df3463",
+        "type": "ui_ui_control",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "events": "all",
+        "x": 780,
+        "y": 1300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0fed53c9e35f1c60",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "fd81eb42b99b36c1",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Logout",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "logout",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "payload.obj_logout",
+        "topicType": "msg",
+        "x": 230,
+        "y": 1540,
+        "wires": [
+            [
+                "c5d34a86f1ae70f2"
+            ]
+        ]
+    },
+    {
+        "id": "c5d34a86f1ae70f2",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "name": "Logout - IO Monitoring Page",
+        "mode": "link",
+        "links": [
+            "d7d27758b2b8c4d0"
+        ],
+        "x": 415,
+        "y": 1600,
+        "wires": []
+    },
+    {
+        "id": "14b5173379719ffa",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "fd81eb42b99b36c1",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Account Dashboard",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 1240,
+        "wires": [
+            [
+                "d571f350b197bd54"
+            ]
+        ]
+    },
+    {
+        "id": "b860a052f6921370",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "1a9334211bfc504f",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Storing Station",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 100,
+        "y": 1080,
+        "wires": [
+            [
+                "6d5e6fc3fa69080a"
+            ]
+        ]
+    },
+    {
+        "id": "6d5e6fc3fa69080a",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "name": "Move to IO Manual Control",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\" : \"Storing Station\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 1080,
+        "wires": [
+            [
+                "c1d2a928c4c639ea"
+            ]
+        ]
+    },
+    {
+        "id": "3d4bc32c584f255a",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "function 17",
+        "func": "// Ambil obj_username dan obj_password dari payload permintaan\nvar username = msg.payload.obj_username;\nvar password = msg.payload.obj_password;\nvar loginstatus = msg.payload.obj_loginstatus;\nvar logout = msg.payload.obj_logout;\n\n// Kredensial yang disimpan dalam objek\nvar storedCredentials = global.get('storedCredentials');\n\n// Periksa apakah kredensial yang diberikan cocok dengan yang disimpan\nif (storedCredentials[username] && storedCredentials[username].password === password && loginstatus == false) {\n    // Kredensial benar, kirim respons berhasil\n    var userLevel = storedCredentials[username].level;\n    msg.ui_control = {\n        \"tab\": {\n            \"selected\": \"IO_Monitoring\" // Ganti \"your_tab_id\" dengan id tab IO Monitoring yang Anda buat\n        }\n    };\n    msg.payload = { success: true, message: \"Login berhasil!\", obj_logout: false, level: userLevel };\n    var msg1 = { payload: logout };\n    var msg2 = { payload: username };\n    loginstatus = true;\n    var msg3 = { payload: loginstatus };\n    global.set('account_loggedin', username);\n    global.set('level_loggedin', userLevel);\n    \n    return [msg, msg1, msg2, msg3];\n} else if (password === \"logout\" && username === \"logout\" && loginstatus === true && logout === true) {\n    loginstatus = false;\n    var msg3 = { payload: loginstatus };\n    global.set('account_loggedin', 'null');\n    global.set('level_loggedin', 'null');\n    \n    return [null, null, null, msg3];\n} else {\n    // Kredensial salah, kirim respons gagal\n    msg.payload = { success: false, message: \"Nama pengguna atau kata sandi salah.\", obj_logout: false };\n    var msg1 = { payload: logout };\n    var msg2 = { payload: username };\n    loginstatus = false;\n    var msg3 = { payload: loginstatus };\n    global.set('account_loggedin', 'null');\n    global.set('level_loggedin', 'null');\n    \n    return [msg, msg1, msg2, msg3];\n}\n",
+        "outputs": 4,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 380,
+        "wires": [
+            [
+                "707e0443539d455d"
+            ],
+            [],
+            [
+                "5382a488a08bb7b8"
+            ],
+            [
+                "a249e2135280eec7"
+            ]
+        ]
+    },
+    {
+        "id": "707e0443539d455d",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "Loginstatus Message",
+        "func": "var topic=msg.payload.message;\nvar logout = msg.payload.obj_logout;\nvar undetected = msg.payload = {\"obj_status\":\"Nama Pengguna atau Kata Sandi Salah\",\"obj_logout\":logout};\nif (topic == \"Login berhasil!\" && logout == false) {\n    var msg1 = { payload:\"Login Berhasil!\" };\n} else if (topic == \"Nama pengguna atau kata sandi salah.\" && logout == false) {\n    var msg2 = { payload:undetected } ;\n}\nreturn [msg1,msg2];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 300,
+        "wires": [
+            [
+                "c7bc97bbaeceb6b0",
+                "3c6cb53f49dc44b1"
+            ],
+            [
+                "df3e503a4dbea13d"
+            ]
+        ]
+    },
+    {
+        "id": "a249e2135280eec7",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "True False Login",
+        "mode": "link",
+        "links": [
+            "47cac27055f6ab41"
+        ],
+        "x": 675,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "5382a488a08bb7b8",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "Account Name",
+        "mode": "link",
+        "links": [
+            "5bfdd33d05abb135"
+        ],
+        "x": 695,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "4e7dfe212d1be192",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "",
+        "group": "1a9334211bfc504f",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Logout",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "logout",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "payload.obj_logout",
+        "topicType": "msg",
+        "x": 130,
+        "y": 300,
+        "wires": [
+            [
+                "0a97a3c5c303ae61",
+                "567fe8392e054cc1",
+                "dd18ec44a8526979"
+            ]
+        ]
+    },
+    {
+        "id": "4d38646193e75a48",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "2b76f5d14d94b279",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 180,
+        "y": 460,
+        "wires": [
+            [
+                "6846306e43b295da"
+            ]
+        ]
+    },
+    {
+        "id": "6846306e43b295da",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "2b76f5d14d94b279",
+        "name": "function 27",
+        "func": "msg.payload = {\"obj_loginstatus\":false,\"obj_username\":\"Akhtar\",\"obj_password\":\"ayam\"}\nreturn msg;",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 460,
+        "wires": [
+            [
+                "3d4bc32c584f255a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5bfdd33d05abb135",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "link in 7",
+        "links": [
+            "5382a488a08bb7b8",
+            "5405530c917d77c2"
+        ],
+        "x": 745,
+        "y": 420,
+        "wires": [
+            [
+                "3e6eaca876265dff",
+                "158786b9b01f3bd2"
+            ]
+        ]
+    },
+    {
+        "id": "567fe8392e054cc1",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "Set Variable",
+        "func": "var baca = msg.payload;\nvar logout = msg.payload = {\"obj_logout\":baca};\nif (baca == true){\nmsg = {payload:logout};\n}\nelse {\n    msg = {payload:logout};\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 390,
+        "y": 300,
+        "wires": [
+            [
+                "df3e503a4dbea13d"
+            ]
+        ]
+    },
+    {
+        "id": "beb98b7a66ad0ea7",
+        "type": "ui_form",
+        "z": "dcb017ae36aaf487",
+        "g": "2add07420576117d",
+        "name": "",
+        "label": "Festo MPS Account",
+        "group": "5c36ba5c62832374",
+        "order": 1,
+        "width": 9,
+        "height": 1,
+        "options": [
+            {
+                "label": "Username",
+                "value": "obj_username",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "obj_password",
+                "type": "password",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "obj_username": "",
+            "obj_password": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": false,
+        "className": "",
+        "x": 190,
+        "y": 380,
+        "wires": [
+            [
+                "3a29d1795fee6cde"
+            ]
+        ]
+    },
+    {
+        "id": "3a29d1795fee6cde",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "2add07420576117d",
+        "name": "function 25",
+        "func": "var username = msg.payload.obj_username;\nvar password = msg.payload.obj_password;\nmsg.payload = {\"obj_loginstatus\":false,\"obj_logout\":false,\"obj_username\": username, \"obj_password\": password};\nreturn msg;",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 370,
+        "y": 380,
+        "wires": [
+            [
+                "3d4bc32c584f255a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "158786b9b01f3bd2",
+        "type": "ui_text",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "group": "1a9334211bfc504f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "Welcome",
+        "layout": "row-left",
+        "className": "",
+        "style": true,
+        "font": "Arial Black,Arial Black,Gadget,sans-serif",
+        "fontSize": 16,
+        "color": "#ffffff",
+        "x": 825,
+        "y": 420,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "3e6eaca876265dff",
+        "type": "ui_text",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "group": "1a9334211bfc504f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "style": true,
+        "font": "Arial,Arial,Helvetica,sans-serif",
+        "fontSize": "21",
+        "color": "#ffffff",
+        "x": 825,
+        "y": 460,
+        "wires": [],
+        "l": false
+    },
+    {
+        "id": "0a97a3c5c303ae61",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "g": "717a1c7f654e5827",
+        "name": "Move to Login",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\" : \"Login\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 180,
+        "y": 220,
+        "wires": [
+            [
+                "5534f1e3628eaf66"
+            ]
+        ]
+    },
+    {
+        "id": "5534f1e3628eaf66",
+        "type": "ui_ui_control",
+        "z": "dcb017ae36aaf487",
+        "g": "717a1c7f654e5827",
+        "name": "",
+        "events": "all",
+        "x": 360,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6e69e8158aa25fb1",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "886d7bce176e8404",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "bool",
+        "x": 170,
+        "y": 120,
+        "wires": [
+            [
+                "03027c661c4b93b0",
+                "ded927560b148862"
+            ]
+        ]
+    },
+    {
+        "id": "03027c661c4b93b0",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "g": "886d7bce176e8404",
+        "name": "First Reset",
+        "mode": "link",
+        "links": [
+            "df68e88affb699e2",
+            "4d59655427053b86",
+            "aa2797f0c44fb5ed"
+        ],
+        "x": 285,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "ded927560b148862",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "g": "886d7bce176e8404",
+        "name": "Move to Login",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\" : \"Login\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 340,
+        "y": 120,
+        "wires": [
+            [
+                "13b61dd14f1cbe97"
+            ]
+        ]
+    },
+    {
+        "id": "13b61dd14f1cbe97",
+        "type": "ui_ui_control",
+        "z": "dcb017ae36aaf487",
+        "g": "886d7bce176e8404",
+        "name": "",
+        "events": "all",
+        "x": 500,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c7bc97bbaeceb6b0",
+        "type": "ui_toast",
+        "z": "dcb017ae36aaf487",
+        "g": "4e040a1852fd0d68",
+        "position": "top right",
+        "displayTime": "4",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 710,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "3c6cb53f49dc44b1",
+        "type": "delay",
+        "z": "dcb017ae36aaf487",
+        "g": "4e040a1852fd0d68",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "100",
+        "timeoutUnits": "milliseconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 700,
+        "y": 120,
+        "wires": [
+            [
+                "5ad37847f7cdba41"
+            ]
+        ]
+    },
+    {
+        "id": "5ffbf542069030dc",
+        "type": "ui_ui_control",
+        "z": "dcb017ae36aaf487",
+        "g": "4e040a1852fd0d68",
+        "name": "",
+        "events": "all",
+        "x": 1030,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5ad37847f7cdba41",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "g": "4e040a1852fd0d68",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\" : \"Account Dashboard\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 870,
+        "y": 120,
+        "wires": [
+            [
+                "5ffbf542069030dc"
+            ]
+        ]
+    },
+    {
+        "id": "58d681492d04909b",
+        "type": "ui_toast",
+        "z": "dcb017ae36aaf487",
+        "g": "300b2f164b5d31c3",
+        "position": "dialog",
+        "displayTime": "4",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1130,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "df3e503a4dbea13d",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "300b2f164b5d31c3",
+        "name": "Message Conditioning",
+        "func": "var logout = msg.payload.obj_logout;\nvar status = msg.payload.obj_status;\nvar msg_logout = msg.payload = { obj_logout: logout, obj_username: \"logout\" , obj_password:\"logout\" , obj_loginstatus: true};\nif (logout == false)\n{\n   var msg1 = {payload:status}\n    \n}\nelse if(logout == true)\n{\n    var msg2 = {payload:msg_logout}\n    }\nreturn [msg1,msg2];",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 300,
+        "wires": [
+            [
+                "58d681492d04909b"
+            ],
+            [
+                "3d4bc32c584f255a"
+            ]
+        ]
+    },
+    {
+        "id": "d7d27758b2b8c4d0",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "link in 13",
+        "links": [
+            "c5d34a86f1ae70f2"
+        ],
+        "x": 165,
+        "y": 300,
+        "wires": [
+            [
+                "0a97a3c5c303ae61",
+                "567fe8392e054cc1",
+                "dd18ec44a8526979"
+            ]
+        ]
+    },
+    {
+        "id": "2108cada27fd4f72",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "d": true,
+        "g": "2b76f5d14d94b279",
+        "name": "",
+        "group": "5c36ba5c62832374",
+        "order": 2,
+        "width": 9,
+        "height": 1,
+        "passthru": false,
+        "label": "AUTO LOGIN",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 180,
+        "y": 500,
+        "wires": [
+            [
+                "6846306e43b295da"
+            ]
+        ]
+    },
+    {
+        "id": "8cc800234dc93f09",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "bc148a792973d9b3",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Account Dashboard",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 1280,
+        "wires": [
+            [
+                "d571f350b197bd54"
+            ]
+        ]
+    },
+    {
+        "id": "2ae2fd3931866d05",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "4f1ec85ade2793c8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Account Dashboard",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 1320,
+        "wires": [
+            [
+                "d571f350b197bd54"
+            ]
+        ]
+    },
+    {
+        "id": "c331dea348937ad8",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "14e264e8c4c8c137",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Account Dashboard",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 270,
+        "y": 1360,
+        "wires": [
+            [
+                "d571f350b197bd54"
+            ]
+        ]
+    },
+    {
+        "id": "0716d62dacfe722a",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "bc148a792973d9b3",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Logout",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "logout",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "payload.obj_logout",
+        "topicType": "msg",
+        "x": 230,
+        "y": 1580,
+        "wires": [
+            [
+                "c5d34a86f1ae70f2"
+            ]
+        ]
+    },
+    {
+        "id": "2f04de8a78dd9ae4",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "4f1ec85ade2793c8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Logout",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "logout",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "payload.obj_logout",
+        "topicType": "msg",
+        "x": 230,
+        "y": 1620,
+        "wires": [
+            [
+                "c5d34a86f1ae70f2"
+            ]
+        ]
+    },
+    {
+        "id": "e88782ed1516178d",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "14e264e8c4c8c137",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Logout",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "logout",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "payload.obj_logout",
+        "topicType": "msg",
+        "x": 230,
+        "y": 1660,
+        "wires": [
+            [
+                "c5d34a86f1ae70f2"
+            ]
+        ]
+    },
+    {
+        "id": "b6555388edb7d71b",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "name": "Move to Dashboard",
+        "links": [
+            "5e7647bfbaa22dec",
+            "fed0e6b91bae9408",
+            "e2c212c6eafe926d",
+            "2b966bb00a62d22a",
+            "dd2941b90916a592",
+            "bcf508871e5e86b0",
+            "ddf923384c476803"
+        ],
+        "x": 345,
+        "y": 1400,
+        "wires": [
+            [
+                "d571f350b197bd54"
+            ]
+        ]
+    },
+    {
+        "id": "5e7647bfbaa22dec",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "name": "Move to Dashboard2",
+        "mode": "link",
+        "links": [
+            "b6555388edb7d71b",
+            "68798fd4ba414ac8"
+        ],
+        "x": 195,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "25e796beb656e7c9",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "name": "Logout 2",
+        "mode": "link",
+        "links": [
+            "fd1b03842edb11eb"
+        ],
+        "x": 185,
+        "y": 1700,
+        "wires": []
+    },
+    {
+        "id": "fd1b03842edb11eb",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "name": "Logout1",
+        "links": [
+            "25e796beb656e7c9",
+            "6fc82975ae076ecb",
+            "9e3c418eb113db2c",
+            "f2fbb6914f320925",
+            "316413537167a40c",
+            "b97cfdf751a14746"
+        ],
+        "x": 265,
+        "y": 1700,
+        "wires": [
+            [
+                "c5d34a86f1ae70f2"
+            ]
+        ]
+    },
+    {
+        "id": "6457e1531249badd",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "d": true,
+        "g": "0153428ba89bea06",
+        "name": "Trigger Alarm",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "1",
+        "payloadType": "num",
+        "x": 150,
+        "y": 1900,
+        "wires": [
+            [
+                "112e42a4b6880c7f"
+            ]
+        ]
+    },
+    {
+        "id": "a8378e42a80b65a5",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "d": true,
+        "g": "0153428ba89bea06",
+        "name": "Reset Alarm",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 150,
+        "y": 1960,
+        "wires": [
+            [
+                "112e42a4b6880c7f"
+            ]
+        ]
+    },
+    {
+        "id": "112e42a4b6880c7f",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "d": true,
+        "g": "0153428ba89bea06",
+        "name": "Process Alarm",
+        "func": "const alarmHistory = context.get('alarmHistory') || [];\nconst currentTime = new Date().toISOString();\nconst inputStatus = msg.payload;\n\nif (inputStatus === 1) {\n    // Alarm activated\n    const newAlarm = {\n        number: alarmHistory.length + 1,\n        triggered_by: \"Push button stop\",\n        status: \"On\",\n        time_activated: currentTime,\n        time_deactivated: \"\"\n    };\n    alarmHistory.push(newAlarm);\n} else if (inputStatus === 0) {\n    // Alarm deactivated\n    const lastAlarm = alarmHistory[alarmHistory.length - 1];\n    if (lastAlarm && lastAlarm.status === \"On\") {\n        lastAlarm.status = \"Off\";\n        lastAlarm.time_deactivated = currentTime;\n        alarmHistory[alarmHistory.length - 1] = lastAlarm; // Update the last entry in the array\n    }\n}\n\ncontext.set('alarmHistory', alarmHistory);\nmsg.payload = alarmHistory;\n\n// Send ui_control message to refresh the table\nreturn [msg, { payload: \"\" }];",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 1920,
+        "wires": [
+            [
+                "c08baf64310b1de7"
+            ],
+            [
+                "35c0c3da7ef0f3f9"
+            ]
+        ]
+    },
+    {
+        "id": "c08baf64310b1de7",
+        "type": "ui_table",
+        "z": "dcb017ae36aaf487",
+        "d": true,
+        "g": "0153428ba89bea06",
+        "group": "425130cc3dd3e263",
+        "name": "Alarm History",
+        "order": 3,
+        "width": 30,
+        "height": 14,
+        "columns": [
+            {
+                "field": "number",
+                "title": "Number",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "triggered_by",
+                "title": "Triggered By",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "status",
+                "title": "Status",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "time_activated",
+                "title": "Time Activated",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            },
+            {
+                "field": "time_deactivated",
+                "title": "Time Deactivated",
+                "width": "",
+                "align": "left",
+                "formatter": "plaintext",
+                "formatterParams": {
+                    "target": "_blank"
+                }
+            }
+        ],
+        "outputs": 0,
+        "cts": false,
+        "x": 540,
+        "y": 1900,
+        "wires": []
+    },
+    {
+        "id": "35c0c3da7ef0f3f9",
+        "type": "ui_ui_control",
+        "z": "dcb017ae36aaf487",
+        "d": true,
+        "g": "0153428ba89bea06",
+        "name": "",
+        "x": 560,
+        "y": 1940,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b71d309e1879e916",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "name": "Move to Separating Station Alarm History",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Separating Station Alarm History\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 500,
+        "y": 1000,
+        "wires": [
+            [
+                "c1d2a928c4c639ea",
+                "1e06f2b9523d812b"
+            ]
+        ]
+    },
+    {
+        "id": "79e8cd59837f0a0e",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "1a9334211bfc504f",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Separating Station Alarm History",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 150,
+        "y": 1000,
+        "wires": [
+            [
+                "b71d309e1879e916"
+            ]
+        ]
+    },
+    {
+        "id": "cd59dd91ab780b01",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "1a9334211bfc504f",
+        "order": 9,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Storing Station Station Alarm History",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 170,
+        "y": 1120,
+        "wires": [
+            [
+                "2814ac282ba301a0"
+            ]
+        ]
+    },
+    {
+        "id": "2814ac282ba301a0",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "name": "Move to Storing Station Alarm History",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tab\":\"Storing Station Alarm History\"}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 510,
+        "y": 1120,
+        "wires": [
+            [
+                "c1d2a928c4c639ea",
+                "146a78a63f447d59"
+            ]
+        ]
+    },
+    {
+        "id": "2af797554a03502f",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "name": "link in 177",
+        "links": [
+            "220439f558f25e21",
+            "7ece99e00371ee9a"
+        ],
+        "x": 265,
+        "y": 1040,
+        "wires": [
+            [
+                "b71d309e1879e916"
+            ]
+        ]
+    },
+    {
+        "id": "220439f558f25e21",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "name": "link out 222",
+        "mode": "link",
+        "links": [
+            "2af797554a03502f"
+        ],
+        "x": 35,
+        "y": 1040,
+        "wires": []
+    },
+    {
+        "id": "346d0d723f408661",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "name": "link in 178",
+        "links": [
+            "3591ae49be22ac3c",
+            "e50c1269a56eaf19",
+            "d9afc72884c9a991"
+        ],
+        "x": 305,
+        "y": 1160,
+        "wires": [
+            [
+                "2814ac282ba301a0"
+            ]
+        ]
+    },
+    {
+        "id": "3591ae49be22ac3c",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "name": "link out 223",
+        "mode": "link",
+        "links": [
+            "346d0d723f408661"
+        ],
+        "x": 35,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "da8b0c854ff0b846",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "name": "link in 180",
+        "links": [
+            "8e3cbdc6dddff423",
+            "243210b4c1c267c6"
+        ],
+        "x": 215,
+        "y": 1080,
+        "wires": [
+            [
+                "6d5e6fc3fa69080a"
+            ]
+        ]
+    },
+    {
+        "id": "b17e02eb7c24491d",
+        "type": "ui_ui_control",
+        "z": "dcb017ae36aaf487",
+        "g": "c936f97e14da25fa",
+        "name": "",
+        "events": "all",
+        "x": 1380,
+        "y": 240,
+        "wires": [
+            [
+                "cb769c88a90fc39e"
+            ]
+        ]
+    },
+    {
+        "id": "cb769c88a90fc39e",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "c936f97e14da25fa",
+        "name": "Set to Global Current Page",
+        "func": "// Retrieve the current tab name from the message\nvar newTabName = msg.name;\n\n// Retrieve the existing tab name from the global context\nvar currentTabName = global.get('currentTabname');\n\n// Check if the new tab name is different from the current tab name\nif (newTabName !== currentTabName) {\n    // Update the global variable with the new tab name\n    global.set('currentTabname', newTabName);\n    \n    // Optionally, you can log or debug the change\n    //node.warn(`Tab name changed from ${currentTabName} to ${newTabName}`);\n}\n\n// Pass the message along to the next node\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1600,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0a53580384a239e4",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "name": "link in 182",
+        "links": [
+            "f5b4d95a30bd5e35"
+        ],
+        "x": 235,
+        "y": 960,
+        "wires": [
+            [
+                "7209482002dca60b"
+            ]
+        ]
+    },
+    {
+        "id": "265a6557602dc745",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "Set Global Credentials",
+        "func": "global.set('storedCredentials', {\n    \"user1\": \"password1\",\n    \"user2\": \"password2\",\n    \"Akhtar\": \"ayam\",\n    \"admin\": \"admin\"\n});\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2120,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "901e94f3997cc06f",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "Initialize Credentials",
+        "props": [],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1830,
+        "y": 380,
+        "wires": [
+            [
+                "15ca08862c5904c2",
+                "075afa9b223d9a5d"
+            ]
+        ]
+    },
+    {
+        "id": "3",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "Add User",
+        "props": [
+            {
+                "p": "payload.newUsername",
+                "v": "test",
+                "vt": "str"
+            },
+            {
+                "p": "payload.newPassword",
+                "v": "test",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1800,
+        "y": 420,
+        "wires": [
+            [
+                "4"
+            ]
+        ]
+    },
+    {
+        "id": "4",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "Add User",
+        "func": "var newUsername = msg.payload.newUsername;\nvar username = msg.payload.username;\nvar newPassword = msg.payload.newPassword;\nvar accessLevel = msg.payload.accessLevel; // New parameter for access level\nvar storedCredentials = global.get('storedCredentials') || {};\n\nvar msg2;\n\n// Check if the new user already exists\nif (storedCredentials[newUsername]) {\n    // Update the existing user's password and access level\n    storedCredentials[newUsername].password = newPassword;\n    storedCredentials[newUsername].level = accessLevel;\n\n    msg.payload = { success: true, message: \"User updated successfully.\" };\n    msg2 = { payload: \"User updated successfully\" };\n} else {\n    // Add the new user with password and access level\n    storedCredentials[newUsername] = {\n        password: newPassword,\n        level: accessLevel\n    };\n\n    msg.payload = { success: true, message: \"User added successfully.\" };\n    msg2 = { payload: \"User added successfully.\" };\n}\n\n// Save the updated storedCredentials to global context\nglobal.set('storedCredentials', storedCredentials);\n\nreturn [msg, msg2];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2000,
+        "y": 420,
+        "wires": [
+            [],
+            [
+                "6a6e98ad9651817f"
+            ]
+        ]
+    },
+    {
+        "id": "5",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "Delete User",
+        "props": [
+            {
+                "p": "payload.usernameToDelete",
+                "v": "undefined",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 1810,
+        "y": 600,
+        "wires": [
+            [
+                "6"
+            ]
+        ]
+    },
+    {
+        "id": "6",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "Delete User",
+        "func": "var usernameToDelete = msg.payload.usernameToDelete;\nvar storedCredentials = global.get('storedCredentials') || {};\nvar currentAccount = global.get('account_loggedin');\nvar msg2;\n\n// Check if the user exists before attempting to delete\nif (storedCredentials[usernameToDelete]) {\n    // Check if the user to be deleted is the currently logged-in user\n    if (usernameToDelete === \"admin\") {\n        msg.payload = { success: false, message: \"Cannot delete the currently logged-in account.\" };\n        msg2 = { payload: \"Admin account can't be deleted\" };\n\n    } else if  (usernameToDelete !== currentAccount) {\n        delete storedCredentials[usernameToDelete];\n\n        global.set('storedCredentials', storedCredentials);\n\n        msg.payload = { success: true, message: \"User deleted successfully.\" };\n        msg2 = { payload: \"User deleted successfully.\" };\n    } else {\n        msg.payload = { success: false, message: \"Cannot delete the currently logged-in account.\" };\n        msg2 = { payload: \"Account currently in use.\" };\n    }\n} else {\n    msg.payload = { success: false, message: \"User not found.\" };\n    msg2 = { payload: \"User not found.\" };\n}\n\nreturn [msg, msg2];\n",
+        "outputs": 2,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1970,
+        "y": 600,
+        "wires": [
+            [
+                "075afa9b223d9a5d"
+            ],
+            [
+                "befeb372af4477d9"
+            ]
+        ]
+    },
+    {
+        "id": "1065c1ed97950b91",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 440,
+        "y": 1700,
+        "wires": [
+            [
+                "c5d34a86f1ae70f2"
+            ]
+        ]
+    },
+    {
+        "id": "dd18ec44a8526979",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "g": "0ffafd78e0e34795",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "account_loggedin",
+                "pt": "global",
+                "to": "null",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3e0bac4c7b6df664",
+        "type": "switch",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "",
+        "property": "level_loggedin",
+        "propertyType": "global",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "str"
+            },
+            {
+                "t": "neq",
+                "v": "1",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 250,
+        "y": 760,
+        "wires": [
+            [
+                "f9c14312e79a1128"
+            ],
+            [
+                "0188d70f62bdd47f"
+            ]
+        ]
+    },
+    {
+        "id": "f9c14312e79a1128",
+        "type": "change",
+        "z": "dcb017ae36aaf487",
+        "g": "65effb74e549bba3",
+        "name": "Show when Login Status = True",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"tabs\":{\"show\":[\"Account Dashboard\",\"Separating Station\",\"Storing Station\",\"Storing Station Alarm History\",\"Separating Station Alarm History\",\"Admin\"]}}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 740,
+        "wires": [
+            [
+                "7df8d073ed0ee12d"
+            ]
+        ]
+    },
+    {
+        "id": "35f566875c5b8031",
+        "type": "ui_form",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "",
+        "label": "",
+        "group": "df5c914bafdf2e37",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Username",
+                "value": "newUsername",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Password",
+                "value": "newPassword",
+                "type": "text",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "Level Access",
+                "value": "accessLevel",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "newUsername": "",
+            "newPassword": "",
+            "accessLevel": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 1790,
+        "y": 460,
+        "wires": [
+            [
+                "4",
+                "075afa9b223d9a5d"
+            ]
+        ]
+    },
+    {
+        "id": "15ca08862c5904c2",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "Set Global Credentials",
+        "func": "global.set('storedCredentials', {\n    \"user1\": { \"password\": \"password1\", \"level\": 3 },\n    \"user2\": { \"password\": \"password2\", \"level\": 3 },\n    \"Akhtar\": { \"password\": \"ayam\", \"level\": 1 },\n    \"admin\": { \"password\": \"admin\", \"level\": 1 }\n});\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2120,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7279ba41a8e07e67",
+        "type": "ui_table",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "group": "b81c63394b3873c3",
+        "name": "",
+        "order": 1,
+        "width": 26,
+        "height": 11,
+        "columns": [],
+        "outputs": 0,
+        "cts": false,
+        "x": 2150,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "075afa9b223d9a5d",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "Plot Table",
+        "func": "// Retrieve stored credentials from global context\nvar storedCredentials = global.get('storedCredentials') || {};\n\n// Format data for the table\nvar tableData = [];\nfor (var user in storedCredentials) {\n    if (storedCredentials.hasOwnProperty(user)) {\n        tableData.push({\n            \"Username\": user,\n            \"Password\": storedCredentials[user].password,\n            \"Access Level\": storedCredentials[user].level\n        });\n    }\n}\n\n// Set the formatted data to the payload\nmsg.payload = tableData;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2000,
+        "y": 500,
+        "wires": [
+            [
+                "7279ba41a8e07e67"
+            ]
+        ]
+    },
+    {
+        "id": "ffa45e8a19634f3e",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1800,
+        "y": 500,
+        "wires": [
+            [
+                "075afa9b223d9a5d"
+            ]
+        ]
+    },
+    {
+        "id": "befeb372af4477d9",
+        "type": "ui_toast",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 2170,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "6a6e98ad9651817f",
+        "type": "ui_toast",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 2170,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "7466ee244089179e",
+        "type": "ui_form",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "",
+        "label": "",
+        "group": "9243fdbaca873134",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "Username",
+                "value": "usernameToDelete",
+                "type": "text",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "usernameToDelete": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 1790,
+        "y": 640,
+        "wires": [
+            [
+                "6"
+            ]
+        ]
+    },
+    {
+        "id": "d633118e9aeac53b",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "0b02d90209f26b48",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Account Dashboard",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "date",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 210,
+        "y": 1440,
+        "wires": [
+            [
+                "ddf923384c476803"
+            ]
+        ]
+    },
+    {
+        "id": "ddf923384c476803",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "name": "Move to Dashboard2",
+        "mode": "link",
+        "links": [
+            "b6555388edb7d71b",
+            "68798fd4ba414ac8"
+        ],
+        "x": 345,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "296f30d0f1c763dc",
+        "type": "ui_button",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "group": "0b02d90209f26b48",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Logout",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "payload.obj_logout",
+        "topicType": "msg",
+        "x": 190,
+        "y": 1740,
+        "wires": [
+            [
+                "b97cfdf751a14746"
+            ]
+        ]
+    },
+    {
+        "id": "b97cfdf751a14746",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "name": "Logout 2",
+        "mode": "link",
+        "links": [
+            "fd1b03842edb11eb"
+        ],
+        "x": 275,
+        "y": 1740,
+        "wires": []
+    },
+    {
+        "id": "bfee679d661bd9ff",
+        "type": "ui_toast",
+        "z": "dcb017ae36aaf487",
+        "g": "dbf043bd997f3fb2",
+        "position": "top left",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1670,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "aff0df1779c8d865",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "dbf043bd997f3fb2",
+        "name": "L.A Filter",
+        "func": "var levelLoggedin = global.get('level_loggedin');\n\nif (levelLoggedin === 1 || levelLoggedin === 2) {\n    // Forward the payload if the level is 1 or 2\n    return [msg, null];\n} else {\n    // Set access denied message\n    var notAllow = { payload: \"Access denied.\" };\n    return [null, notAllow];\n}\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1380,
+        "y": 60,
+        "wires": [
+            [],
+            [
+                "e3180bf6b1f439df"
+            ]
+        ]
+    },
+    {
+        "id": "e3180bf6b1f439df",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "g": "dbf043bd997f3fb2",
+        "name": "link out 257",
+        "mode": "link",
+        "links": [
+            "0ea28f99409ce7f6"
+        ],
+        "x": 1495,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "0ea28f99409ce7f6",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "g": "dbf043bd997f3fb2",
+        "name": "link in 274",
+        "links": [
+            "e3180bf6b1f439df",
+            "00d63946f3a61b03",
+            "e7b45806471b5589"
+        ],
+        "x": 1545,
+        "y": 60,
+        "wires": [
+            [
+                "bfee679d661bd9ff"
+            ]
+        ]
+    },
+    {
+        "id": "f0d094335b113de0",
+        "type": "influxdb out",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "influxdb": "03610e7f98ad379b",
+        "name": "influxdb out",
+        "measurement": "Account_info",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "SCADA_DB",
+        "bucket": "Account_Data",
+        "x": 1950,
+        "y": 920,
+        "wires": []
+    },
+    {
+        "id": "5c9b742f1148aff6",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "Create JSON Payload",
+        "func": "var measurement = msg.payload.value_string;\nvar valueString = msg.payload.value_string; // Assume this is the string value\nvar userTag = \"user1\"; // Example tag\n\nmsg.payload = [\n    {\n        measurement: measurement,\n        tags: {\n            user: userTag\n        },\n        fields: {\n            value_string: valueString\n        },\n        //timestamp: new Date().getTime() * 1000000 // Optional: current timestamp in nanoseconds\n    }\n];\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1780,
+        "y": 880,
+        "wires": [
+            [
+                "e07fb2a66d7f8696",
+                "b6f15a79fb03f93c"
+            ]
+        ]
+    },
+    {
+        "id": "3a226ed10923e5b0",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "get Global",
+        "func": "// Function to transform global.storedCredentials to single line JSON string\nfunction transformToSingleLine() {\n    var storedCredentials = global.get('storedCredentials');\n    return JSON.stringify(storedCredentials);\n}\n\n// Call the function and store the result in the message payload\nmsg.payload.value_string = transformToSingleLine();\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1570,
+        "y": 880,
+        "wires": [
+            [
+                "5c9b742f1148aff6"
+            ]
+        ]
+    },
+    {
+        "id": "5b132e49cffb9517",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "{\"value_string\": \"some_string_value\"}",
+        "payloadType": "json",
+        "x": 1410,
+        "y": 880,
+        "wires": [
+            [
+                "3a226ed10923e5b0"
+            ]
+        ]
+    },
+    {
+        "id": "1c9e6f5a.f5fce1",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.3",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1410,
+        "y": 780,
+        "wires": [
+            [
+                "1a5c9e17.74c432"
+            ]
+        ]
+    },
+    {
+        "id": "1a5c9e17.74c432",
+        "type": "influxdb in",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "influxdb": "03610e7f98ad379b",
+        "name": "",
+        "query": "from(bucket:\"Account_Data\")\n  |> range(start:-30d)\n  |> filter(fn: (r) =>\n    r._measurement == \"Account_info\" and\n    r._field == \"measurement\"\n  )\n  |> last()",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "SCADA_DB",
+        "x": 1580,
+        "y": 780,
+        "wires": [
+            [
+                "c1d81c6b0b3d20cc"
+            ]
+        ]
+    },
+    {
+        "id": "f7f5367e.5e5758",
+        "type": "debug",
+        "z": "dcb017ae36aaf487",
+        "name": "Display Results",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 2120,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "c1d81c6b0b3d20cc",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "Parse Data",
+        "func": "// Extract the _value field from the payload\nvar resultArray = msg.payload;\n\nif (resultArray && resultArray.length > 0) {\n    var result = resultArray[0]; // Get the first element in the array\n    var valueData = result._value; // Extract the _value field\n    \n    // Parse the _value JSON string to an object\n    var parsedData = JSON.parse(valueData);\n    \n    // Set the parsed data as the new payload\n    msg.payload = parsedData;\n    \n    // Return the message with the new payload\n    return msg;\n} else {\n    // Handle the case where the payload does not contain the expected data\n    msg.payload = { error: \"No valid data found in payload\" };\n    return msg;\n}\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1750,
+        "y": 780,
+        "wires": [
+            [
+                "680bddef7c099337",
+                "523239869d1b1476"
+            ]
+        ]
+    },
+    {
+        "id": "680bddef7c099337",
+        "type": "debug",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "Display Results",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 1960,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "84173316af8fdd5e",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "d9d0b42199aea882",
+        "name": "Get Level Access",
+        "func": "// Check the value of global variable 'level_loggedin'\nvar levelLoggedIn = global.get('level_loggedin');\n\n// Determine msg.enabled based on level_loggedin\nif (levelLoggedIn === 3) {\n    msg.enabled = false;\n} else if (levelLoggedIn === 1 || levelLoggedIn === 2) {\n    msg.enabled = true;\n} else {\n    // Handle other cases if needed\n}\n\n// Return the modified message object\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 140,
+        "wires": [
+            [
+                "229c40239aabb5d1"
+            ]
+        ]
+    },
+    {
+        "id": "80b4ecc8132a7949",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "d9d0b42199aea882",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.5",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1410,
+        "y": 140,
+        "wires": [
+            [
+                "84173316af8fdd5e"
+            ]
+        ]
+    },
+    {
+        "id": "229c40239aabb5d1",
+        "type": "link out",
+        "z": "dcb017ae36aaf487",
+        "g": "d9d0b42199aea882",
+        "name": "Button Control",
+        "mode": "link",
+        "links": [
+            "fbbf90328e7aca73",
+            "307215498f90596f",
+            "6da68d34dd59e161",
+            "2d61c725759ecbae",
+            "bade5c444d94c620",
+            "c9c74b95434c4a92",
+            "a603e067e3b0bfa9",
+            "ce9717b327ba206c",
+            "181938111f0859f8",
+            "56fb9ad331557354",
+            "a74075dc476ea07f",
+            "05c2ab1dabae68fb",
+            "485b8e16be53a621",
+            "2b6823e5233a060c",
+            "e318691a75db7a3c",
+            "26c912d53ada76bb",
+            "190e449afcfcb70a",
+            "f89339ec0b3d749c",
+            "54d5b92358c244b7",
+            "ad40ce3414413e0e",
+            "d879055e8d867863"
+        ],
+        "x": 1790,
+        "y": 140,
+        "wires": [],
+        "l": true
+    },
+    {
+        "id": "fbbf90328e7aca73",
+        "type": "link in",
+        "z": "dcb017ae36aaf487",
+        "g": "d9d0b42199aea882",
+        "name": "BTN CNTRL",
+        "links": [
+            "229c40239aabb5d1"
+        ],
+        "x": 1990,
+        "y": 140,
+        "wires": [
+            []
+        ],
+        "l": true
+    },
+    {
+        "id": "1e06f2b9523d812b",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "name": "Refresh",
+        "func": "var send = {payload:\"\"};\n\nreturn send;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 1040,
+        "wires": [
+            [
+                "c1d2a928c4c639ea"
+            ]
+        ]
+    },
+    {
+        "id": "146a78a63f447d59",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "name": "Refresh",
+        "func": "var send = {payload:\"\"};\n\nreturn send;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 1160,
+        "wires": [
+            [
+                "c1d2a928c4c639ea"
+            ]
+        ]
+    },
+    {
+        "id": "523239869d1b1476",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "Set to Global",
+        "func": "// Assuming the input data is in msg.payload\nvar inputData = msg.payload;\n\n// Set the object to a global variable\nglobal.set('storedCredentials', inputData);\n\n// Return the message object to continue the flow if needed\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1950,
+        "y": 740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "f24872dfc1684c53",
+        "type": "ui_media",
+        "z": "dcb017ae36aaf487",
+        "d": true,
+        "group": "3620dda6d8d3780f",
+        "name": "",
+        "width": 0,
+        "height": 0,
+        "order": 3,
+        "category": "MPS New",
+        "file": "output-onlinepngtools.png",
+        "layout": "adjust",
+        "showcontrols": true,
+        "loop": true,
+        "onstart": false,
+        "scope": "local",
+        "tooltip": "",
+        "x": 1830,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2d92db0e926d6648",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "inject when admin is on page",
+        "func": "// Read the value of the global variable 'currentTabname'\nvar currentTabname = global.get('currentTabname');\n\n// Check if the value is 'Admin'\nif (currentTabname === 'Admin') {\n    // Set the payload to an empty string\n    msg.payload = \" \";\n}\n\n// Return the message object\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 540,
+        "wires": [
+            [
+                "5374a1ed1f84712e"
+            ]
+        ]
+    },
+    {
+        "id": "b6f15a79fb03f93c",
+        "type": "rbe",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1970,
+        "y": 880,
+        "wires": [
+            [
+                "f0d094335b113de0",
+                "1b19fbacca02117e"
+            ]
+        ]
+    },
+    {
+        "id": "e07fb2a66d7f8696",
+        "type": "debug",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "debug 224",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1990,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "1b19fbacca02117e",
+        "type": "debug",
+        "z": "dcb017ae36aaf487",
+        "g": "9ba9601bee7d6746",
+        "name": "debug 225",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1950,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "61bc4d3736916d99",
+        "type": "trigger",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "op1": " ",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "0",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "RESET",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1420,
+        "y": 1080,
+        "wires": [
+            [
+                "a9dcaecdb83ecd01"
+            ]
+        ]
+    },
+    {
+        "id": "10d1e3b033f6dd88",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1260,
+        "y": 1080,
+        "wires": [
+            [
+                "61bc4d3736916d99"
+            ]
+        ]
+    },
+    {
+        "id": "a9dcaecdb83ecd01",
+        "type": "debug",
+        "z": "dcb017ae36aaf487",
+        "name": "debug 226",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1610,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "5374a1ed1f84712e",
+        "type": "trigger",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "",
+        "op1": " ",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "0",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "ms",
+        "reset": "RESET",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 1800,
+        "y": 540,
+        "wires": [
+            [
+                "075afa9b223d9a5d"
+            ]
+        ]
+    },
+    {
+        "id": "5e58fd155d8920de",
+        "type": "inject",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "0.3",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "0.3",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1410,
+        "y": 500,
+        "wires": [
+            [
+                "2d92db0e926d6648",
+                "da08cb528e95b8ab"
+            ]
+        ]
+    },
+    {
+        "id": "da08cb528e95b8ab",
+        "type": "function",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "inject when admin is on page",
+        "func": "// Read the value of the global variable 'currentTabname'\nvar currentTabname = global.get('currentTabname');\n\n// Check if the value is 'Admin'\nif (currentTabname !== 'Admin') {\n    // Set the payload to an empty string\n    msg.payload = \"RESET\";\n}\n\n// Return the message object\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 580,
+        "wires": [
+            [
+                "449f5f5a0a7f5136"
+            ]
+        ]
+    },
+    {
+        "id": "449f5f5a0a7f5136",
+        "type": "rbe",
+        "z": "dcb017ae36aaf487",
+        "g": "0deb7b8d18532af3",
+        "name": "",
+        "func": "rbe",
+        "gap": "",
+        "start": "",
+        "inout": "out",
+        "septopics": true,
+        "property": "payload",
+        "topi": "topic",
+        "x": 1630,
+        "y": 580,
+        "wires": [
+            [
+                "5374a1ed1f84712e"
+            ]
+        ]
+    },
+    {
+        "id": "1a9334211bfc504f",
+        "type": "ui_group",
+        "name": "Account",
+        "tab": "86a7a1ec98bae1d8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fd81eb42b99b36c1",
+        "type": "ui_group",
+        "d": true,
+        "name": "Control Page",
+        "tab": "",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "5c36ba5c62832374",
+        "type": "ui_group",
+        "name": "Login Page",
+        "tab": "49e559fceda6e9fd",
+        "order": 2,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bc148a792973d9b3",
+        "type": "ui_group",
+        "name": "Control Page",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4f1ec85ade2793c8",
+        "type": "ui_group",
+        "name": "Control Page",
+        "tab": "",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "14e264e8c4c8c137",
+        "type": "ui_group",
+        "name": "Control Page",
+        "tab": "",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "425130cc3dd3e263",
+        "type": "ui_group",
+        "name": "Demo 2",
+        "tab": "362b60fac7f0ec25",
+        "order": 1,
+        "disp": true,
+        "width": 30,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "df5c914bafdf2e37",
+        "type": "ui_group",
+        "name": "Add / Edit Account",
+        "tab": "3e55b58e.55d1e2",
+        "order": 2,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b81c63394b3873c3",
+        "type": "ui_group",
+        "name": "Account Data",
+        "tab": "3e55b58e.55d1e2",
+        "order": 1,
+        "disp": true,
+        "width": "26",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9243fdbaca873134",
+        "type": "ui_group",
+        "name": "Delete Account",
+        "tab": "3e55b58e.55d1e2",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0b02d90209f26b48",
+        "type": "ui_group",
+        "name": "Control",
+        "tab": "3e55b58e.55d1e2",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "03610e7f98ad379b",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "IO_Data",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "http://localhost:8086",
+        "timeout": "10",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "3620dda6d8d3780f",
+        "type": "ui_group",
+        "d": true,
+        "name": "Media",
+        "tab": "49e559fceda6e9fd",
+        "order": 1,
+        "disp": false,
+        "width": "12",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "86a7a1ec98bae1d8",
+        "type": "ui_tab",
+        "name": "Account Dashboard",
+        "icon": "account_circle",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "49e559fceda6e9fd",
+        "type": "ui_tab",
+        "name": "Login",
+        "icon": "fa-sign-in",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "362b60fac7f0ec25",
+        "type": "ui_tab",
+        "name": "Prototype",
+        "icon": "dashboard",
+        "order": 8,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "3e55b58e.55d1e2",
+        "type": "ui_tab",
+        "name": "Admin",
+        "icon": "fa-user-secret",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    }
+]
