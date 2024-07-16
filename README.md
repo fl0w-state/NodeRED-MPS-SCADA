@@ -62,6 +62,8 @@ This section includes the SOPs for operating and managing the Node-RED MPS SCADA
 
 This section contains the JSON code for the Node-RED flows used in this project. The Node-RED flows are located in the [Node-RED](Node-RED) folder.
 
+*_UPDATE!, the latest version of json file can be accesed [here](https://drive.google.com/drive/folders/10uxmqPGALChSED5ThXodnPyLMykk3cX8?usp=sharing)_
+
 ### Node-RED Modules in Use
 
 The following Node-RED modules are used in this project:
@@ -103,12 +105,14 @@ This section contains the PLC programs used in this project. The PLC programs ar
 ### Separating Station (Siemens S7-300, TIA Portal V18)
 
 - [Separating Station folder](PLC%20Programs/Separating%20Station)
+*_UPDATE!, the latest version of PLC program can be accesed [here](https://drive.google.com/drive/folders/17O2cJEBwkU76QFwoHlvGs1rr3tJGL4iN?usp=sharing)_
   
   ![TIA Portal](Media/TIA.png)
 
 ### Storing Station (Omron CP1L-M30DR-A, CX-Programmer 9.7)
 
 - [Storing Station folder](PLC%20Programs/Storing%20Station)
+*_UPDATE!, the latest version of PLC program can be accesed [here](https://drive.google.com/drive/folders/10B0tcbbc91LAK33eiEgTlZiJ-Xo2hjZp?usp=sharing)_
   
   ![CX Programmer](Media/CX-P.png)
 
