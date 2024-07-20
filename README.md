@@ -23,7 +23,7 @@ This project aims to develop a SCADA system using Node-RED for monitoring and co
   <img src="Media/Gambaran%20Umum%20Sistem.png" alt="Gambaran Umum Sistem">
 </p>
 <p>
-  <b>Description:</b> The image above represents an overview of the system architecture, illustrating the integration and flow of data between different components in the SCADA system. The Omron CP1L-M30DR-A PLC uses the FINS UDP protocol, while the Siemens S7-300 PLC uses the Modbus TCP protocol. The PLCs are connected to a TP-Link WR840N router using Ethernet, which then sends the data to the MTU/PC. The Node-RED dashboard is used for monitoring, and InfluxDB is used for data storage. For more detailed information regarding this project, refer to the <a href="Document">Document</a> folder.
+  <b>Description:</b> The image above represents an overview of the system architecture, illustrating the integration and flow of data between different components in the SCADA system. The Omron CP1L-M30DR-A PLC uses the FINS UDP protocol, while the Siemens S7-300 PLC uses the Modbus TCP protocol. The PLCs are connected to a TP-Link WR840N router using Ethernet, which then sends the data to the MTU/PC. The Node-RED dashboard is used for monitoring, and InfluxDB is used for data storage. For more detailed information regarding this project, refer to the [document](https://drive.google.com/drive/folders/1bjL1nOgoUtoKfisTbz3VI7c0y7SYFpge). 
 </p>
 
 ## Maintenance Guide
